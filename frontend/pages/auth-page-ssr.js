@@ -1,4 +1,6 @@
 import { Debuger } from "../components/debuger";
+import { tokenService } from "../src/service/auth/tokenService";
+import nookies from "nookies";
 
 export default function AuthPageSSR(props) {
   return (
@@ -7,4 +9,16 @@ export default function AuthPageSSR(props) {
       <Debuger values={props} />
     </div>
   );
+}
+
+export async function getServerSideProps(context) {
+  console.log(tokenService.get());
+  const cookies = nookies.get(context);
+  console.log("cookies ", cookies);
+
+  return {
+    props: {
+      token: tokenService.get(context)
+    }
+  }
 }
