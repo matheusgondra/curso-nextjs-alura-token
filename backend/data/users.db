@@ -1,0 +1,3 @@
+{"username":"omariosouto","name":"Mario Souto","email":"contato@alura.com.br","password":"safepassword","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDkyMjI0MDksImV4cCI6MTcwOTgyNzIwOSwic3ViIjoiU05ZOGUyVDgwaUFpNjg3cyJ9.hT5T480p_k6Mk9-nv2sOVDq3VdjOyXLRzr2qELf0yAI","_id":"SNY8e2T80iAi687s"}
+{"username":"peas","password":"safepassword","name":"Paulo Silveira","email":"paulo@alura.com.br","_id":"pchQDUBs1jJv8br0"}
+{"$$indexCreated":{"fieldName":"username","unique":true,"sparse":false}}
